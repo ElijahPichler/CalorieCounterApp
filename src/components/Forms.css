@@ -1,0 +1,83 @@
+.box {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color:darkblue ;
+    border-radius: 25px;
+    padding-bottom: 100px;
+    
+}
+
+.innerBox {
+    margin-left: 50px;
+}
+
+.label {
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.input {
+    text-align: center;
+    outline: none;
+    width:100px;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-right:10px;
+}
+
+.button {
+    border-radius: 10px;
+    padding-top: 3px
+}
+hr {
+   border:2px dashed white;
+}
+h1 {
+    color: white;
+    font-style: italic;
+}
+
+.macros {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.list {
+    font-size: 25px;
+}
+
+.buttonBox {
+    padding-top: 20px;
+    text-align: center;
+}
+.foodBox {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    
+
+}
+
+.foodList{
+    padding-bottom: 10px;
+}
+span:hover {
+    cursor: pointer;
+}
+
+.green {
+    background-color: green !important;
+    color: black
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.red {
+    background-color: red;
+    color: black;
+}
