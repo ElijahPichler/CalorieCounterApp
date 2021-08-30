@@ -171,7 +171,7 @@ export const FoodInput = (props) => {
                                 <ListGroup.Item>Proteins: {food.proteins}</ListGroup.Item>
                                 <ListGroup.Item>Carbs: {food.carbs}</ListGroup.Item>
                                 <ListGroup.Item>Fat: {food.fats}</ListGroup.Item>
-                                <ListGroup.Item> <span onClick={() => deleteFood(food.id)}><HiOutlineTrash /></span> </ListGroup.Item>
+                                <span onClick={() => deleteFood(food.id)}><ListGroup.Item className="icons"> <HiOutlineTrash/> </ListGroup.Item></span>
                             </ListGroup>
                             )
                         })

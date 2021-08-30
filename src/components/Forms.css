@@ -1,15 +1,54 @@
-.box {
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-color:darkblue ;
-    border-radius: 25px;
-    padding-bottom: 100px;
+@media(min-width:772px) {
+    .box {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color:darkblue ;
+        border-radius: 25px;
+        padding-bottom: 100px;
+        
+        
+    }
+    .foodBox {
+        width: auto;
+        padding-top: 50px;
+        padding-left: 50px;
+        font-size: 25px;
+        
     
+    }
 }
+@media(max-width:771px){
+    .foodBox {
+        width: auto;
+        padding-top: 50px;
+        padding-left: 0;
+        font-size: 15px;
+        
+        
+    
+    }
+   
+    .box {
+        
+        width: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color:darkblue ;
+        border-radius: 25px;
+        padding-bottom: 100px;
+        
+        
+    }
+}
+
+
+
+
 
 .innerBox {
     margin-left: 50px;
+   
 }
 
 .label {
@@ -19,6 +58,7 @@
 }
 
 .input {
+    
     text-align: center;
     outline: none;
     width:100px;
@@ -43,6 +83,7 @@ h1 {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+   
 }
 .list {
     font-size: 25px;
@@ -52,15 +93,10 @@ h1 {
     padding-top: 20px;
     text-align: center;
 }
-.foodBox {
-    padding-top: 50px;
-    padding-left: 50px;
-    font-size: 25px;
-    
 
-}
 
 .foodList{
+    
     padding-bottom: 10px;
 }
 span:hover {
@@ -80,4 +116,12 @@ span:hover {
 .red {
     background-color: red;
     color: black;
+}
+
+.icons {
+    background-color: yellow;
+}
+
+.icons:hover {
+    cursor: pointer;
 }
