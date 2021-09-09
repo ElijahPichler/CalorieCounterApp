@@ -1,4 +1,5 @@
 @media(min-width:772px) {
+    /* smaller*/
     .box {
         width: 1000px;
         margin: 0 auto;
@@ -19,6 +20,7 @@
     }
 }
 @media(max-width:771px){
+    /* bigger*/
     .foodBox {
         width: auto;
         padding-top: 50px;
@@ -30,7 +32,7 @@
     }
    
     .box {
-        
+       
         width: auto;
         margin: 0 auto;
         margin-top: 50px;
@@ -47,7 +49,10 @@
 
 
 .innerBox {
+   
+    padding-top: 20px;
     margin-left: 50px;
+   
    
 }
 
@@ -119,9 +124,13 @@ span:hover {
 }
 
 .icons {
-    background-color: pink;
+    background-color: red;
 }
 
 .icons:hover {
     cursor: pointer;
+}
+.start {
+    text-align: center;
+    color: red;
 }

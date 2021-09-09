@@ -13,7 +13,12 @@ export const Forms = () => {
 
 
     const submit = () => {
-        setSubmitted(true)
+        if(calories === '' || proteins === ''|| carbs === ''|| fats === ''){
+
+        } else {
+            setSubmitted(true)
+        }
+        
     }
     return (
         <div className="box">
@@ -53,7 +58,7 @@ export const Forms = () => {
                 
                 
                 
-               </> :""}
+               </> :<h1 className="start">Please Enter Macros</h1>}
            
         </div>
     )

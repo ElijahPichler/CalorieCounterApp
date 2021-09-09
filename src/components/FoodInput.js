@@ -61,31 +61,36 @@ export const FoodInput = (props) => {
     }
 
     const addFood = () => {
+        if(foodName === '' ||calories === '' || proteins === ''|| carbs === ''|| fats === ''){
+            
+
+        } else {
+            setTempCals(tempCals - calories)
+            setTempCarbs(tempCarbs - carbs)
+            setTempFats(tempFats - fats)
+            setTempProteins(tempProteins - proteins)
+
+            const food = {
+                name: foodName,
+                cals: calories,
+                proteins: proteins,
+                carbs: carbs,
+                fats: fats,
+                id: id
+            }
+
+
+
+            foods.push(food)
+            setFoods(foods)
+            setFoodName('')
+            setCalories('')
+            setProteins('')
+            setCarbs('')
+            setFats('')
+            setId(id + 1)
         
-        setTempCals(tempCals - calories)
-        setTempCarbs(tempCarbs - carbs)
-        setTempFats(tempFats - fats)
-        setTempProteins(tempProteins - proteins)
-
-        const food = {
-            name: foodName,
-            cals: calories,
-            proteins: proteins,
-            carbs: carbs,
-            fats: fats,
-            id: id
         }
-
-
-
-        foods.push(food)
-        setFoods(foods)
-        setFoodName('')
-        setCalories('')
-        setProteins('')
-        setCarbs('')
-        setFats('')
-        setId(id + 1)
         
 
 
