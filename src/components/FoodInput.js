@@ -61,7 +61,7 @@ export const FoodInput = (props) => {
     }
 
     const addFood = () => {
-        if(foodName === '' ||calories === '' || proteins === ''|| carbs === ''|| fats === ''){
+        if(calories === '' || proteins === ''|| carbs === ''|| fats === '' || !/^\d+$/.test(calories) || !/^\d+$/.test(proteins) || !/^\d+$/.test(carbs) || !/^\d+$/.test(fats) || calories === '' || proteins === ''|| carbs === ''|| fats === '' || !/^\d+$/.test(calories) || !/^\d+$/.test(proteins) || !/^\d+$/.test(carbs) || /^\d+$/.test(foodName)){
             
 
         } else {

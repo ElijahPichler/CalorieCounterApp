@@ -1,6 +1,6 @@
 body {
   background-image: url("background.png");
-  overflow: hidden;
+  overflow: auto;
   background-size: cover;
   width: 100%;
   min-height: 100vh;

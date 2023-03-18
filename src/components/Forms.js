@@ -13,7 +13,7 @@ export const Forms = () => {
 
 
     const submit = () => {
-        if(calories === '' || proteins === ''|| carbs === ''|| fats === ''){
+        if(calories === '' || proteins === ''|| carbs === ''|| fats === '' || !/^\d+$/.test(calories) || !/^\d+$/.test(proteins) || !/^\d+$/.test(carbs) || !/^\d+$/.test(fats) ){
 
         } else {
             setSubmitted(true)
